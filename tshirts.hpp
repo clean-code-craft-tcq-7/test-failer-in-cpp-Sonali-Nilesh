@@ -1,3 +1,3 @@
-void tshirts_test(void);
+void tshirts_test();
 
 char size(int cms);
