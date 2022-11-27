@@ -15,6 +15,6 @@ char size(int cms) {
 
 int main() {
     
-   tshirts_test();
+   void tshirts_test();
     return 0;
 }
