@@ -1,2 +1,2 @@
-void tshirts_test();
+tshirts_test();
 char size(int);
