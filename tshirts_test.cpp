@@ -1,5 +1,6 @@
 #include <assert.h>
 #include "tshirts.hpp"
+#include "tshirts.cpp"
 
 void tshirts_test()
 {
