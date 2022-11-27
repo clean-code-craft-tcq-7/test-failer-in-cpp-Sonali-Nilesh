@@ -15,7 +15,7 @@ char size(int cms) {
 }
 
 int main() {
-    void tshirts_test();
+    tshirts_test();
     std::cout << "All is not well\n";
     return 0;
 }
