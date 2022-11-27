@@ -3,6 +3,8 @@
 #include "tshirts.hpp"
 #include "tshirts.cpp"
 
+void tshirts_test();
+
 void tshirts_test()
 {
     assert(size(37) == 'S');
