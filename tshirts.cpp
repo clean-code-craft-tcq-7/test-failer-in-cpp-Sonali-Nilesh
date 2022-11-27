@@ -1,5 +1,6 @@
 #include <iostream>
 #include "tshirts.hpp"
+#include "tshirts_test.cpp"
 
 char size(int cms) {
     char sizeName = '\0';
