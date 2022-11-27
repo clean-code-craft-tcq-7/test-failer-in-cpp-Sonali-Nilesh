@@ -1,2 +1,2 @@
-
-char size(int cms);
+void tshirts_test();
+char size(int);
