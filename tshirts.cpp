@@ -1,6 +1,5 @@
 #include <iostream>
 #include "tshirts.hpp"
-#include "tshirts_test.cpp"
 
 char size(int cms) {
     char sizeName = '\0';
@@ -15,8 +14,7 @@ char size(int cms) {
 }
 
 int main() {
-    
-   void tshirts_test();
+    void tshirts_test();
     std::cout << "All is not well\n";
     return 0;
 }
