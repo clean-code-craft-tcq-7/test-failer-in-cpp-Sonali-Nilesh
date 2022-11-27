@@ -3,8 +3,6 @@
 #include "tshirts.hpp"
 #include "tshirts.cpp"
 
-void tshirts_test();
-
 void tshirts_test()
 {
     assert(size(37) == 'S');
@@ -12,6 +10,6 @@ void tshirts_test()
     assert(size(43) == 'L');
     assert(size(38) == 'M');
     assert(size(42) == 'M');
-    std::cout << "Hi\n";
+    return 0;
    
 }
