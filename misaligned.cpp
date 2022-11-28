@@ -1,6 +1,7 @@
 #include <iostream>
 #include <assert.h>
 #include "printminorcolors.cpp"
+#include "test_misaligned.hpp"
 
 void printColorMap() {
    int i, first, second, third, fourth, fifth =0, n= 5;
@@ -35,6 +36,7 @@ void printColorMap() {
 int main() {
    
     printColorMap();
+    test_minor_color();
    
     return 0;
 }
