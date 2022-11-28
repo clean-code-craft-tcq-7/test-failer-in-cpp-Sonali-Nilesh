@@ -1,6 +1,5 @@
 #include <iostream>
 #include <assert.h>
-#include "misaligned.hpp"
 #include "printminorcolors.hpp"
 
 void printColorMap() {
