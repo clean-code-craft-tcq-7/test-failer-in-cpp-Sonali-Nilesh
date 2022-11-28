@@ -1,6 +1,6 @@
 #include <iostream>
 #include <assert.h>
-#include "printminorcolors.cpp"
+#include "misaligned.hpp"
 
 test_minor_color(){
 // printfirstmajorcolor(majorcolor, minorcolor, nof_maj_color)
