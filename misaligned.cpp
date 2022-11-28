@@ -1,6 +1,6 @@
 #include <iostream>
 #include <assert.h>
-#include "printminorcolors.hpp"
+
 
 void printColorMap() {
    int i, first, second, third, fourth, fifth =0, n= 5;
