@@ -2,7 +2,7 @@
 #include <assert.h>
 #include "misaligned.hpp"
 
-int printColorMap() {
+void printColorMap() {
    int i, first, second, third, fourth, fifth =0, n= 5;
     
    for(i = 0; i < n; i++) {
@@ -33,10 +33,8 @@ int printColorMap() {
 }
 
 int main() {
+   
     printColorMap();
-    // printfirstmajorcolor(majorcolor, minorcolor, nof_maj_color)
-    assert(printfirstmajorcolor(2,4,5) == "Brown"); //test minor color
-    
-    std::cout << "All is well (maybe!)\n";
+   
     return 0;
 }
