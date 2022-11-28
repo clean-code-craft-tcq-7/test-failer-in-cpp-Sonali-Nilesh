@@ -1,6 +1,5 @@
 #include <iostream>
 #include <assert.h>
-#include "misaligned.cpp"
 #include "misaligned.hpp"
 #include "printminorcolors.cpp"
 
