@@ -1,4 +1,5 @@
 #include "misaligned.cpp"
+#include "misaligned.hpp"
 
 char *printfirstmajorcolor(int i, int first, int n){
     const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
