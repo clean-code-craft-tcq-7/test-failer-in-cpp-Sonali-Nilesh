@@ -8,7 +8,8 @@ void test_minor_color()
 {
 
 int check_minor[NOF_MINOR];
-if(strcmp(printfirstmajorcolor(1,4,5), "Slate") == 0) { check_minor[0]; }
+check_minor[0]= strcmp(printfirstmajorcolor(1,4,5), "Slate"); 
+
 assert(check_minor[0] ==1);
 
 std::cout << "All is not well (maybe!)\n";
