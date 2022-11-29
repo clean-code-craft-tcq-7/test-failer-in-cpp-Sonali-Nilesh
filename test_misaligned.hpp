@@ -2,7 +2,7 @@
 #include <assert.h>
 #include "misaligned.hpp"
 #include <cstring>
-#include NOF_MINOR 25 
+#define NOF_MINOR 25 
 
 void test_minor_color()
 {
