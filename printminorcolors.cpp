@@ -1,13 +1,11 @@
 #include "misaligned.hpp"
 
-char *printfirstmajorcolor(int i, int first, int n){
+char printfirstmajorcolor(int i, int first, int n){
     const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
     const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 	
-	const char* check = minorColor[i];
-    
     std::cout << i * n + first << " " " | " << majorColor[i] << " " " | " << minorColor[i] << "\n";
-	return (char *)check;
+	return minorColor[i];
 }
 
 char *printsecondmajorcolor(int i, int second, int n){
