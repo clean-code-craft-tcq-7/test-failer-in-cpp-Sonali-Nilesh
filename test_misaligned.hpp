@@ -6,10 +6,11 @@
 void test_minor_color()
 {
 
-int checkminor;
-checkminor = strcmp(printfirstmajorcolor(1,4,5) == "Slate");
-// printfirstmajorcolor(majorcolor, minorcolor, nof_maj_color)
-assert(check); //test minor color
 
+if(strcmp(printfirstmajorcolor(1,4,5), "Slate"))
+{
+  // printfirstmajorcolor(majorcolor, minorcolor, nof_maj_color)
+  assert(1); //test minor color
+}
 std::cout << "All is not well (maybe!)\n";
 }
