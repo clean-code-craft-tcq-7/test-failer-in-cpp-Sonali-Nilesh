@@ -10,9 +10,9 @@
 #define SWENV 0
     // if production then set to 1, if testing then set to 0
 
-int alertFailureCount = 0;
-
 void alertInCelcius(float farenheit) {
+    
+    int alertFailureCount = 0;
     float celcius = (farenheit - 32) * 5 / 9;
     
         if(!SWENV){             //testing environment
