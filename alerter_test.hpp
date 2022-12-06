@@ -13,4 +13,5 @@ void alerttest(float farenheit, int alertFailureCount)
   else {
   assert(alertFailureCount == 0);
   std::cout << alertFailureCount << " NO alerts \n";
+  }
 }
