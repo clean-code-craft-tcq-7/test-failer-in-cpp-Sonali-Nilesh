@@ -2,6 +2,7 @@
 #include <assert.h>
 #include "alerter.hpp"
 #include "alerter_stub.cpp"
+#include "alerter_test.hpp"
 
 #define CEL_OKTHR 200
 #define CEL_NOKTHR 500
@@ -23,7 +24,7 @@ void alertInCelcius(float farenheit) {
                 // Add a test below to catch this bug. Alter the stub above, if needed.
                 alertFailureCount += 0;
                 }
-             alerttest(float farenheit, int alertFailureCount);
+             alerttest(farenheit, alertFailureCount);
             }
 }
 
