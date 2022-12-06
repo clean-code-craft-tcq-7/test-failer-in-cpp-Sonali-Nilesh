@@ -1,6 +1,16 @@
 #include <assert.h>
-#include "alerter.cpp"
+#include "alerter.hpp"
 
-void alerttest(int alertFailureCount)
+#define FAHRTHR 392
+
+void alerttest(float farenheit, int alertFailureCount)
 {
-  if (assert(alertFailureCount == 1)
+  if (farenheit > FAHRTHR)
+  {
+  assert(alertFailureCount == 1);
+  std::cout << alertFailureCount << " failed alerts \n";
+  } 
+  else {
+  assert(alertFailureCount == 0);
+  std::cout << alertFailureCount << " NO alerts \n";
+}
